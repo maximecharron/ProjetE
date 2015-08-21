@@ -1,4 +1,4 @@
-package projectEuler;
+package projectEuler.onetoten;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -65,7 +65,7 @@ public class Problem8 {
                                          4, 2, 0, 7, 5, 2, 9, 6, 3, 4, 5, 0 };
 
   public static void main(String[] pArgs) throws Exception {
-    System.out.println("Calculating 10001st prime...");
+    System.out.println("Finding largest sum...");
     Long multiple = findLargest(findSumOfNumbers());
     System.out.println("Difference is: " + multiple.toString());
   }
@@ -74,10 +74,14 @@ public class Problem8 {
     List<Long> sums = new ArrayList<>();
     for (int i = 0; i < 1000; i++) {
       long tempSum = 1;
+      int countNumbers = 0;
       for (int j = i; j <= i + 12 && j < 1000; j++) {
         tempSum *= numbers[j];
+        countNumbers++;
       }
+      if (countNumbers == 13){
       sums.add(tempSum);
+      }
     }
     return sums;
   }

@@ -1,4 +1,4 @@
-package projectEuler;
+package projectEuler.onetoten;
 
 import java.util.Collections;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package projectEuler;
+package projectEuler.onetoten;
 
 /**
  * @copyright ©2015, Bell Canada

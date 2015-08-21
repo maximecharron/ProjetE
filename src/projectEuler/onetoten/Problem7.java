@@ -1,4 +1,4 @@
-package projectEuler;
+package projectEuler.onetoten;
 
 import java.util.ArrayList;
 import java.util.List;

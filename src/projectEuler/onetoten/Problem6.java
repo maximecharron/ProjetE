@@ -1,4 +1,4 @@
-package projectEuler;
+package projectEuler.onetoten;
 
 import java.math.BigInteger;
 
